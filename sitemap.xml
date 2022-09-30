@@ -78,6 +78,21 @@
   </url>
   
   <url>
+    <loc>https://d0gesp4n.github.io/tags/tag/</loc>
+    <lastmod>2017-11-21T19:50:47+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d0gesp4n.github.io/tags/</loc>
+    <lastmod>2017-11-21T19:50:47+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d0gesp4n.github.io/tags/test/</loc>
+    <lastmod>2017-11-21T19:50:47+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://d0gesp4n.github.io/categories/travel/</loc>
     <lastmod>2017-05-05T19:44:32+05:30</lastmod>
   </url>
@@ -95,10 +110,6 @@
   <url>
     <loc>https://d0gesp4n.github.io/</loc>
     <lastmod>2016-11-05T21:05:33+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://d0gesp4n.github.io/tags/</loc>
   </url>
   
 </urlset>
