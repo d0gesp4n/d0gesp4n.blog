@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>d0gesp4n&#39;s blog</title>
-    <link>https://d0gesp4n.github.io/</link>
+    <link>https://d0gesp4n.com/</link>
     <description>Recent content on d0gesp4n&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 15 Oct 2022 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://d0gesp4n.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://d0gesp4n.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About me</title>
-      <link>https://d0gesp4n.github.io/about/</link>
+      <link>https://d0gesp4n.com/about/</link>
       <pubDate>Sat, 15 Oct 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://d0gesp4n.github.io/about/</guid>
+      <guid>https://d0gesp4n.com/about/</guid>
       <description>Willliam Legue, Cybersecurity professional, Home brewer and craft beer enthusiast, Musician, Gamer, and father. I have been an IT hobbyist for most of my life, but really I’m just a hobbyist for just about anything that peaks my interest. I have the tendency to dive into interests head first and try to learn everything about it. It started with music, I was a professional musician for the better part of a decade before shifting focus and breaking into cybersecurity.</description>
     </item>
     
     <item>
       <title>BACKSTORY</title>
-      <link>https://d0gesp4n.github.io/post/firstpost/</link>
+      <link>https://d0gesp4n.com/post/firstpost/</link>
       <pubDate>Sat, 15 Oct 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://d0gesp4n.github.io/post/firstpost/</guid>
+      <guid>https://d0gesp4n.com/post/firstpost/</guid>
       <description>&lt;p&gt;I have been an IT enthusiast for most of my life. Really ever since my Dad started showing me how to upgrade our family computer so I could play Lego Island in the late 90s. I got the game as a present, but after installing it the game was completely unplayable. We needed a graphics card.&lt;/p&gt;</description>
     </item>
     

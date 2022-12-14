@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on d0gesp4n&#39;s blog</title>
-    <link>https://d0gesp4n.github.io/post/</link>
+    <link>https://d0gesp4n.com/post/</link>
     <description>Recent content in Posts on d0gesp4n&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 15 Oct 2022 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://d0gesp4n.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://d0gesp4n.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>BACKSTORY</title>
-      <link>https://d0gesp4n.github.io/post/firstpost/</link>
+      <link>https://d0gesp4n.com/post/firstpost/</link>
       <pubDate>Sat, 15 Oct 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://d0gesp4n.github.io/post/firstpost/</guid>
+      <guid>https://d0gesp4n.com/post/firstpost/</guid>
       <description>&lt;p&gt;I have been an IT enthusiast for most of my life. Really ever since my Dad started showing me how to upgrade our family computer so I could play Lego Island in the late 90s. I got the game as a present, but after installing it the game was completely unplayable. We needed a graphics card.&lt;/p&gt;</description>
     </item>
     

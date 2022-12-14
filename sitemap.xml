@@ -3,31 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://d0gesp4n.github.io/about/</loc>
+    <loc>https://d0gesp4n.com/about/</loc>
     <lastmod>2022-10-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://d0gesp4n.github.io/post/firstpost/</loc>
+    <loc>https://d0gesp4n.com/post/firstpost/</loc>
     <lastmod>2022-10-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://d0gesp4n.github.io/</loc>
+    <loc>https://d0gesp4n.com/categories/</loc>
     <lastmod>2022-10-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://d0gesp4n.github.io/post/</loc>
+    <loc>https://d0gesp4n.com/</loc>
     <lastmod>2022-10-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://d0gesp4n.github.io/categories/</loc>
+    <loc>https://d0gesp4n.com/categories/general/</loc>
+    <lastmod>2022-10-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://d0gesp4n.github.io/tags/</loc>
+    <loc>https://d0gesp4n.com/post/</loc>
+    <lastmod>2022-10-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d0gesp4n.com/tags/</loc>
   </url>
   
 </urlset>
