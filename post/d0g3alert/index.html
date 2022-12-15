@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<script type="application/ld+json">
+    {
+        "@context" : "http://schema.org",
+        "@type" : "BlogPosting",
+        "mainEntityOfPage": {
+             "@type": "WebPage",
+             "@id": "https:\/\/d0gesp4n.com\/"
+        },
+        "articleSection" : "post",
+        "name" : "d0g3Alert",
+        "headline" : "d0g3Alert",
+        "description" : "\x3cp\x3eI have been using security onion for a long time now. I started dabbling with it while I was studying for my B.S. and have continued to use it throughout my career. It has been my go to platform for anything NSM related or a platform for learning SIEM administration. Now SO it is a great platform, out of the box you’re pretty much setup to start monitoring your network as it comes with great tools that require little configuration to get started. Suricata or Snort for IDS and ZEEK or Suricata for network metadata. It even offers PCAPs out of the box along with Syslog ingestion and endpoint monitoring options. The list could really continue on.\x3c\/p\x3e",
+        "inLanguage" : "en",
+        "author" : "",
+        "creator" : "",
+        "publisher": "",
+        "accountablePerson" : "",
+        "copyrightHolder" : "",
+        "copyrightYear" : "2022",
+        "datePublished": "2022-12-13 00:00:00 \x2b0000 UTC",
+        "dateModified" : "2022-12-13 00:00:00 \x2b0000 UTC",
+        "url" : "https:\/\/d0gesp4n.com\/post\/d0g3alert\/",
+        "wordCount" : "1029",
+        "image" : "https://d0gesp4n.com//img/d0g3alert/alert_condition_d0g3.jpeg"",
+        "keywords" : [ ""security"",""elastic"",""siem"",""threat hunt"",""security onion"","Blog" ]   
+    }
+    </script>
+
+
+ <title>d0g3Alert </title>
+
+
+<meta name="description" content="" />
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="all,follow">
+<meta name="googlebot" content="index,follow,snippet,archive">
+<link rel="stylesheet" id="ct-tracks-google-fonts-css" href="https://fonts.googleapis.com/css?family=Raleway%3A400%2C700&amp;subset=latin%2Clatin-ext&amp;ver=4.7.2" type="text/css" media="all">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+<link href="https://d0gesp4n.com/css/style.css?v=1671123788" rel="stylesheet" id="theme-stylesheet" type='text/css' media='all'>
+
+<link href="https://d0gesp4n.com/css/custom.css?v=1671123788" rel="stylesheet" type='text/css' media='all'>
+<link rel="shortcut icon" href="https://d0gesp4n.com/img/favicon.ico" type="image/x-icon">
+<link rel="icon" href="https://d0gesp4n.com/img/favicon.ico" type="image/x-icon">
+
+
+</head>
+
+
+<body class="post-template-default single single-post single-format-standard ct-body singular singular-post not-front standard">
+
+  <div id="overflow-container" class="overflow-container">
+    <a class="skip-content" href="#main">Skip to content</a>
+    <header id="site-header" class="site-header" role="banner">
+      <div class='top-navigation'>
+        <div class='container'>
+
+  <div id="menu-secondary" class="menu-container menu-secondary" role="navigation">
+    <button id="toggle-secondary-navigation" class="toggle-secondary-navigation"><i class="fas fa-plus"></i></button>
+
+    <div class="menu">
+
+      <ul id="menu-secondary-items" class="menu-secondary-items">
+        
+        <li class="menu-item menu-item-type-taxonomy menu-item-object-category">
+          <a href="/categories/general">general</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-taxonomy menu-item-object-category">
+          <a href="/categories/security">security</a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+
+  </div>
+
+
+  <ul class="social-media-icons">
+
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li>
+      <a href="mailto:w3@d0g3sp4n.com" data-animate-hover="pulse" class="email">
+        <i class="fas fa-envelope" title="email"></i>
+        <span class="screen-reader-text">email</span>
+      </a>
+    </li>
+    
+
+    
+    <li>
+      <a href="https://www.linkedin.com/in/w3legue/" data-animate-hover="pulse" class="linkedin" target="_blank">
+        <i class="fab fa-linkedin-in" title="linkedin"></i>
+        <span class="screen-reader-text">linkedin</span>
+      </a>
+    </li>
+    
+
+    
+
+
+    
+    <li>
+      <a href="https://github.com/d0gesp4n" data-animate-hover="pulse" class="github" target="_blank">
+        <i class="fab fa-github" title="github"></i>
+        <span class="screen-reader-text">github</span>
+      </a>
+    </li>
+    
+
+
+    
+
+    
+    <li>
+      <a href="https://d0gesp4n.com/index.xml" data-animate-hover="pulse" class="rss" target="_blank">
+        <i class="fas fa-rss" title="rss"></i>
+        <span class="screen-reader-text">rss</span>
+      </a>
+    </li>
+    
+
+
+  </ul></div>
+
+      </div>
+
+      <div class="container">
+        <div id="title-info" class="title-info">
+  <div id='site-title' class='site-title'>
+    
+    <a href="/"> d0gesp4n&#39;s blog </a>
+    </div>
+  </div>
+  <button id="toggle-navigation" class="toggle-navigation">
+    <i class="fas fa-bars"></i>
+  </button>
+
+  <div id="menu-primary-tracks" class="menu-primary-tracks"></div>
+  <div id="menu-primary" class="menu-container menu-primary" role="navigation">
+    
+
+    <div class="menu">
+      <ul id="menu-primary-items" class="menu-primary-items">
+        
+        
+        <li class='menu-item menu-item-type-custom menu-item-object-custom '>
+          <a href="https://d0gesp4n.com/">Home</a>
+          
+        </li>
+        
+        <li class='menu-item menu-item-type-post_type menu-item-object-page '>
+          <a href="https://d0gesp4n.com/about/">About</a>
+          
+        </li>
+        
+      </ul>
+    </div>
+
+  </div>
+
+      </div>
+    </header>
+
+    <div id="main" class="main" role="main">
+
+      
+  
+  
+    
+  
+  
+  <div id="loop-container" class="loop-container">
+    
+    <div class="post type-post status-publish format-standard has-post-thumbnail hentry category-design tag-design tag-standard-2 tag-tagalicious tag-travel entry full-without-featured odd excerpt-1">
+
+      <div class='featured-image lazy lazy-bg-image'  data-background="https://d0gesp4n.com/img/d0g3alert/alert_condition_d0g3.jpeg">
+      </div>
+      
+        <div class="entry-meta">
+          <span class="date">13 December</span>	<span> / </span>
+
+          <span class="author">
+            <a href="https://appernetic.io/" title="Posts by William Legue" rel="author">William Legue</a>
+          </span>
+
+
+          
+          <span class="category">
+            <span> / </span>
+
+            <a href="/categories/security">Security</a>
+          </span>
+          
+
+
+        </div>
+        <div class='entry-header'>
+          <h1 class='entry-title'> d0g3Alert</h1>
+        </div>
+        <div class="entry-container">
+          <div class="entry-content">
+            <article>
+              <p>I have been using security onion for a long time now. I started dabbling with it while I was studying for my B.S. and have continued to use it throughout my career. It has been my go to platform for anything NSM related or a platform for learning SIEM administration. Now SO it is a great platform, out of the box you’re pretty much setup to start monitoring your network as it comes with great tools that require little configuration to get started. Suricata or Snort for IDS and ZEEK or Suricata for network metadata. It even offers PCAPs out of the box along with Syslog ingestion and endpoint monitoring options. The list could really continue on.</p>
+<p>After spending a lot of time setting up SO, playing with configurations then having to re-setup SO because I made a catastrophically bad config, I started to get fairly comfortable with the basics of the platform. I wanted  to start really customizing it for my own purposes, so (not SO) I learned about ElastAlert (EA). ElastAlert is an alert framework for Elasticsearch that allows you to monitor for just about anything you would want<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. Out of the box you can alert for anomalies, spikes, and other patterns. It’s pretty simple to figure out how it works. Alerts are built using YAML and they run on a schedule to search for the conditions specified in the alert. Once a doc is found that matches those conditions, an alert(or doc) is written to an EA index in Elastic <img src="/img/d0g3alert/huntExample.png" alt="Alert Example">. In addition to just writing the alert to an index, you can specify an Alert type. The alert types give extra customization options for handling the alerts that are generated, some examples are: email, running a command, sending a Slack or Discord and the list goes on<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>.</p>
+<p>Now I wanted to get the hang of using EA with its built-in capabilities before I started going ham on customizing everything (and inevitably breaking SO having to start fresh AGAIN). I created a few basic alerts to send to my Discord server <img src="/img/d0g3alert/discoAlerts.png" alt="Discord Alerts">. I started out with notifications for High priority Suricata alerts, this was an easy ANY rule. Then moved on to a New Term rule for any new IDS alerts that generated for the first time within a 90 day window. Since both of those were successful I started to play with a few others.</p>
+<p>These alerts were starting to workout really well for what I wanted them for. I was getting notified for interesting IDS events along with other simple items I wanted to keep tabs on. The next thing I wanted to do was have an easy way to search for them with SO’s Hunt or Kibana. In SO you can add EA’s index to the indices that are queried through Hunt and Kibana which sort of worked <sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>. It didn’t really capture what I was looking for since the doc that was generated didn’t use the same fields as the other docs <img src="/img/d0g3alert/eaDefault.png" alt="Match Fields">. So this is where I had the idea for D0g3Alert. I wanted to write an alert module for EA that would capture the fields that I wanted from the docs that were being alerted on. This meant that they would all live within their own index and be searchable in the Alerts section of Hunt.</p>
+<!-- raw HTML omitted -->
+<p>I took the idea from the Playbook alert module that came with SO since it does a bit of what I was looking for. The main thing that needed to be modified was how the matched doc fields were placed in the new alert doc. Reading over the EA docs, I learned that <code>alert(self,match)</code> comes with a list of dictionary objects that contain the info about the match. So the easy option could be to just add the <code>match</code> dictionary directly to the alert doc. That would work fine, but I didn’t want to have unnecessary info in the alert doc, just the important elements for that alert. I need a way to specify the fields I wanted and then only write those to the alert doc. Well <code>self.rule</code> contains a dictionary with all the rule configuration options. Since those can be pull from the yaml, I just added a list of fields to pull from the matching doc called <code>event.fields</code>.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#66d9ef">event.fields</span>: 
+  - <span style="color:#e6db74">&#39;@timestamp&#39;</span>
+  - destination.ip
+  - destination.port
+  - source.ip
+  - network.community_id
+</code></pre></div><p><code>event.fields</code> gets pulling into <code>createDictionary</code> and appended to the <code>payload</code></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">if</span> <span style="color:#e6db74">&#39;event.fields&#39;</span> <span style="color:#f92672">in</span> self<span style="color:#f92672">.</span>rule<span style="color:#f92672">.</span>keys():
+  payload<span style="color:#f92672">.</span>update(createDictionary(match, self<span style="color:#f92672">.</span>rule[<span style="color:#e6db74">&#39;event.fields&#39;</span>]))
+</code></pre></div><p>Now that I’m grabbing the fields from the matching doc, I wanted to specify some other items that would be important for tracking and correlating the alerts. Some of these fields are required for the alert to work, but others are optional and have defaults built into the alert.</p>
+<ul>
+<li><em>Required Fields</em>
+<ul>
+<li>
+<dl>
+<dt><code>rule.title</code></dt>
+<dd>The name of the rule.</dd>
+</dl>
+</li>
+<li>
+<dl>
+<dt><code>rule.id</code></dt>
+<dd>ID for the rule. Can be used for rule tracking and tuning.</dd>
+</dl>
+</li>
+<li>
+<dl>
+<dt><code>rule.category</code></dt>
+<dd>Specify a category for the rule.</dd>
+</dl>
+</li>
+<li>
+<dl>
+<dt><code>rule.severity</code></dt>
+<dd>Specify the Severity as an integer of 1-4. It will add an additional <code>severity_level</code> field. The severities will translate as follows; 1:low, 2:medium, 3:high, 4:critical.</dd>
+</dl>
+</li>
+</ul>
+</li>
+<li><em>Optional Fields</em>
+<ul>
+<li><code>event.dataset</code>
+: Defaults to <code>alert</code> if omitted from rule</li>
+<li><code>event.module</code>
+: Defaults to <code>d0g3alert</code> if omitted from rule</li>
+<li><code>event.fields</code>
+: Specify fields that you want to be pulled from the matching doc and written to the new alert doc. Defaults to all fields from matching doc if omitted from rule</li>
+<li><code>mitre.id</code>
+: Specify the Mitre technique ID associated with this rule. If omitted, the field will not populate. Maps to <code>rule.mitre.id</code>.</li>
+<li><code>mitre.name</code>
+: Specify the Mitre technique name associated with this rule. If omitted, the field will not populate. Maps to <code>rule.mitre.technique</code>.</li>
+<li><code>link.filters</code>
+: Creates a new field called <code>hunt_link</code> and generates a link based on the fields provided. If omitted, the field will not populate.</li>
+</ul>
+</li>
+</ul>
+<p>Once the required fields are added you can build the rule to look for whatever it is you are hoping to highlight.
+I’ve attached an example alert, but feel free to pull this down and start using it within your own environment. If you can think of improvements, please feel free to submit a PR.</p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p><a href="https://elastalert.readthedocs.io/en/latest/elastalert.html">ElastAlert Docs</a> <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2" role="doc-endnote">
+<p><a href="https://elastalert.readthedocs.io/en/latest/ruletypes.html#alerts">ElastAlert Alerters</a> <a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3" role="doc-endnote">
+<p><a href="https://docs.securityonion.net/en/2.3/elastalert.html">Security Onion Docs</a> <a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+            </article>
+          </div>
+          
+      <div class='entry-meta-bottom'>
+        
+
+  <div class="entry-categories"><p><span>Categories</span>
+    
+    <a href="/categories/security" title="View all posts in Security">Security</a>
+  </p>
+</div>
+
+
+
+<div class="entry-tags"><p><span>Tags</span>
+  
+  <a href="/tags/security" title="View all posts tagged security">security</a>
+  
+  <a href="/tags/elastic" title="View all posts tagged elastic">elastic</a>
+  
+  <a href="/tags/siem" title="View all posts tagged siem">siem</a>
+  
+  <a href="/tags/threat-hunt" title="View all posts tagged threat hunt">threat hunt</a>
+  
+  <a href="/tags/security-onion" title="View all posts tagged security onion">security onion</a>
+  
+
+</p></div>	</div>
+
+	
+<div class="author-meta">
+
+  <div class="author">
+    	
+    <img alt='William Legue' src="https://www.gravatar.com/avatar/4e0031a1532cc07cdc9412657469d6ba?s=100&d=identicon" class='avatar avatar-72 photo' height='72' width='72'>
+    
+    <span>
+      Written by:<a href="https://appernetic.io/" title="Posts by William Legue" rel="author">William Legue</a> </span>
+    </div>
+    <div class="bio">
+      
+      
+      <p>William is an experienced InfoSec Professional with experience as a Security Engineer, SOC Analyst, and Threat Detection Developer. In additiona to security, William enjoys brewing delicious beer, PC gaming, and exploring nature with his family.</p>
+        
+      
+	
+      
+
+    
+
+
+  
+
+<a class="linkedin" target="_blank"
+href="https://www.linkedin.com/in/w3legue/">
+<i class="fab fa-linkedin"
+title="linkedin icon"></i>
+</a>
+
+
+
+<a class="email" target="_blank"
+href="mailto:w3@d0g3sp4n.com">
+<i class="fas fa-envelope"
+title="email icon"></i>
+</a>
+
+
+
+
+
+
+
+<a class="github" target="_blank"
+href="https://github.com/d0gesp4n">
+<i class="fab fa-github"
+title="github icon"></i>
+</a>
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+</div>
+</div>
+
+<section id="comments" class="comments">
+  
+
+  
+
+
+
+
+</section>
+</div>
+
+ 
+
+
+
+    </div>
+
+    <footer id="site-footer" class="site-footer" role="contentinfo">
+	<h1>
+    
+    <a href=""> d0gesp4n&#39;s blog </a>
+    
+	</h1>
+
+			
+
+		<div id="menu-footer" class="menu-container menu-footer" role="navigation">
+		<div class="menu">
+
+      <ul id="menu-footer-items" class="menu-footer-items">
+        
+</ul>
+
+</div>	</div>
+
+<ul class="social-media-icons">
+
+        
+
+        
+
+
+        
+
+        
+
+        
+        <li>
+        <a href="mailto:w3@d0g3sp4n.com"  class="email">
+            <i class="fas fa-envelope" title="email"></i>
+            <span class="screen-reader-text">email</span>
+        </a>
+        </li>
+        
+
+        
+        <li>
+        <a href="https://www.linkedin.com/in/w3legue/" class="linkedin" target="_blank">
+            <i class="fab fa-linkedin-in" title="linkedin"></i>
+            <span class="screen-reader-text">linkedin</span>
+        </a>
+        </li>
+        
+
+        
+
+
+        
+        <li>
+        <a href="https://github.com/d0gesp4n"  class="github" target="_blank">
+            <i class="fab fa-github" title="github"></i>
+            <span class="screen-reader-text">github</span>
+        </a>
+        </li>
+        
+
+
+        
+
+        
+        <li>
+        <a href="https://d0gesp4n.com/index.xml" data-animate-hover="pulse" class="rss" target="_blank">
+            <i class="fas fa-rss" title="rss"></i>
+            <span class="screen-reader-text">rss</span>
+        </a>
+        </li>
+        
+
+				</ul>	<div class="design-credit">
+		
+		<p>© 2022 William Legue</p>
+		
+		<p>Nederburg Hugo Theme by <a href="https://appernetic.io">Appernetic</a>.</p>
+		
+		<p>A port of Tracks by Compete Themes.</p>
+		
+	</div>
+</footer>
+
+  </div>
+  <script src="https://d0gesp4n.com/js/jquery.min.js"></script>
+<script src="https://d0gesp4n.com/js/jquerymigrate.js"></script>
+<script src="https://d0gesp4n.com/js/production.min.js?v=1671123788"></script>
+
+</body>
+</html>

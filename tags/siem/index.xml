@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>siem on d0gesp4n&#39;s blog</title>
+    <link>https://d0gesp4n.com/tags/siem/</link>
+    <description>Recent content in siem on d0gesp4n&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 13 Dec 2022 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://d0gesp4n.com/tags/siem/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>d0g3Alert</title>
+      <link>https://d0gesp4n.com/post/d0g3alert/</link>
+      <pubDate>Tue, 13 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://d0gesp4n.com/post/d0g3alert/</guid>
+      <description>&lt;p&gt;I have been using security onion for a long time now. I started dabbling with it while I was studying for my B.S. and have continued to use it throughout my career. It has been my go to platform for anything NSM related or a platform for learning SIEM administration. Now SO it is a great platform, out of the box you’re pretty much setup to start monitoring your network as it comes with great tools that require little configuration to get started. Suricata or Snort for IDS and ZEEK or Suricata for network metadata. It even offers PCAPs out of the box along with Syslog ingestion and endpoint monitoring options. The list could really continue on.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
