@@ -6,10 +6,19 @@
     <description>Recent content in Categories on d0gesp4n&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 15 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Dec 2022 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://d0gesp4n.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Security</title>
+      <link>https://d0gesp4n.com/categories/security/</link>
+      <pubDate>Tue, 13 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://d0gesp4n.com/categories/security/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>general</title>

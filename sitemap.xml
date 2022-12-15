@@ -3,17 +3,62 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://d0gesp4n.com/categories/</loc>
+    <lastmod>2022-12-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d0gesp4n.com/post/d0g3alert/</loc>
+    <lastmod>2022-12-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d0gesp4n.com/tags/elastic/</loc>
+    <lastmod>2022-12-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d0gesp4n.com/post/</loc>
+    <lastmod>2022-12-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d0gesp4n.com/categories/security/</loc>
+    <lastmod>2022-12-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d0gesp4n.com/tags/security/</loc>
+    <lastmod>2022-12-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d0gesp4n.com/tags/security-onion/</loc>
+    <lastmod>2022-12-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d0gesp4n.com/tags/siem/</loc>
+    <lastmod>2022-12-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d0gesp4n.com/tags/</loc>
+    <lastmod>2022-12-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://d0gesp4n.com/tags/threat-hunt/</loc>
+    <lastmod>2022-12-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://d0gesp4n.com/about/</loc>
     <lastmod>2022-10-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://d0gesp4n.com/post/firstpost/</loc>
-    <lastmod>2022-10-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://d0gesp4n.com/categories/</loc>
     <lastmod>2022-10-15T00:00:00+00:00</lastmod>
   </url>
   
@@ -25,15 +70,6 @@
   <url>
     <loc>https://d0gesp4n.com/categories/general/</loc>
     <lastmod>2022-10-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://d0gesp4n.com/post/</loc>
-    <lastmod>2022-10-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://d0gesp4n.com/tags/</loc>
   </url>
   
 </urlset>

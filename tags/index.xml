@@ -6,9 +6,55 @@
     <description>Recent content in Tags on d0gesp4n&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Tue, 13 Dec 2022 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://d0gesp4n.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>elastic</title>
+      <link>https://d0gesp4n.com/tags/elastic/</link>
+      <pubDate>Tue, 13 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://d0gesp4n.com/tags/elastic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>security</title>
+      <link>https://d0gesp4n.com/tags/security/</link>
+      <pubDate>Tue, 13 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://d0gesp4n.com/tags/security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>security onion</title>
+      <link>https://d0gesp4n.com/tags/security-onion/</link>
+      <pubDate>Tue, 13 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://d0gesp4n.com/tags/security-onion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>siem</title>
+      <link>https://d0gesp4n.com/tags/siem/</link>
+      <pubDate>Tue, 13 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://d0gesp4n.com/tags/siem/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>threat hunt</title>
+      <link>https://d0gesp4n.com/tags/threat-hunt/</link>
+      <pubDate>Tue, 13 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://d0gesp4n.com/tags/threat-hunt/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
