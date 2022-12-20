@@ -24,7 +24,7 @@
         "datePublished": "2022-12-13 00:00:00 \x2b0000 UTC",
         "dateModified" : "2022-12-13 00:00:00 \x2b0000 UTC",
         "url" : "https:\/\/d0gesp4n.com\/post\/d0g3alert\/",
-        "wordCount" : "1072",
+        "wordCount" : "1074",
         "image" : "https://d0gesp4n.com//img/d0g3alert/alert_condition_d0g3.jpeg"",
         "keywords" : [ ""security"",""elastic"",""siem"",""threat hunt"",""security onion"","Blog" ]   
     }
@@ -45,9 +45,9 @@
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
-<link href="https://d0gesp4n.com/css/style.css?v=1671495697" rel="stylesheet" id="theme-stylesheet" type='text/css' media='all'>
+<link href="https://d0gesp4n.com/css/style.css?v=1671496147" rel="stylesheet" id="theme-stylesheet" type='text/css' media='all'>
 
-<link href="https://d0gesp4n.com/css/custom.css?v=1671495697" rel="stylesheet" type='text/css' media='all'>
+<link href="https://d0gesp4n.com/css/custom.css?v=1671496147" rel="stylesheet" type='text/css' media='all'>
 <link rel="shortcut icon" href="https://d0gesp4n.com/img/favicon.ico" type="image/x-icon">
 <link rel="icon" href="https://d0gesp4n.com/img/favicon.ico" type="image/x-icon">
 
@@ -222,7 +222,8 @@
             <article>
               <p>I have been using security onion for a long time now. I started dabbling with it while I was studying for my B.S. and have continued to use it throughout my career. It has been my go to platform for anything NSM related or a platform for learning SIEM administration. Security onion is a great platform, out of the box you’re pretty much setup to start monitoring your network as it comes with great tools that require little configuration to get started. Suricata or Snort for IDS and ZEEK or Suricata for network metadata. It even offers PCAPs along with Syslog ingestion and endpoint monitoring options. The list could really continue on.</p>
 <p>After spending a lot of time setting up Security Onion (SO), playing with configurations then having to re-setup SO because I made a catastrophically bad config, I started to get fairly comfortable with the basics of the platform. I wanted  to start really customizing it for my own purposes, so (not SO) I learned about ElastAlert (EA). ElastAlert is an alert framework for Elasticsearch that allows you to monitor for just about anything you would want<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. Out of the box you can alert for anomalies, spikes, and other patterns. It’s pretty simple to figure out how it works. Alerts are built using YAML and they run on a schedule to search for the conditions specified in the alert. Once a doc is found that matches those conditions, an alert(or doc) is written to an EA index in Elastic. <img src="/img/d0g3alert/huntExample.png" alt="Alert Example"> In addition to just writing the alert to an index, you can specify an Alert type. The alert types give extra customization options for handling the alerts that are generated, some examples are: email, running a command, sending a Slack or Discord and the list goes on<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>.</p>
-<p>I wanted to get the hang of using EA with its built-in capabilities before I started going ham on customizing everything (and inevitably breaking SO having to start fresh AGAIN). I created a few basic alerts to send to my Discord server. <img src="/img/d0g3alert/discoAlerts.png" alt="Discord Alerts"> I started out with notifications for High priority Suricata alerts, this was an easy ANY rule. Then moved on to a New Term rule for any new IDS alerts that generated for the first time within a 90 day window. Since both of those were successful I started to play with a few others.</p>
+<p>I wanted to get the hang of using EA with its built-in capabilities before I started going ham on customizing everything (and inevitably breaking SO having to start fresh AGAIN). I created a few basic alerts to send to my Discord server. <img src="/img/d0g3alert/discoAlerts.png" alt="Discord Alerts">
+I started out with notifications for High priority Suricata alerts, this was an easy ANY rule (Screenshot above). Then moved on to a New Term rule for any new IDS alerts that generated for the first time within a 90 day window. Since both of those were successful I started to play with a few others.</p>
 <p>These alerts were starting to workout really well for what I wanted them for. I was getting notified for interesting IDS events along with other simple items I wanted to keep tabs on. The next thing I wanted to do was have an easy way to search for them with SO’s Hunt or Kibana. In SO you can add EA’s index to the indices that are queried through Hunt and Kibana which sort of worked <sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>. It didn’t really capture what I was looking for since the doc that was generated didn’t use the same fields as the other docs. <img src="/img/d0g3alert/eaDefault.png" alt="Match Fields"> So this is where I had the idea for D0g3Alert. I wanted to write an alert module for EA that would capture the fields that I wanted from the docs that were being alerted on. This meant that they would all live within their own index and be searchable in the Alerts section of Hunt.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">  payload <span style="color:#f92672">=</span> {
     <span style="color:#e6db74">&#34;rule&#34;</span>: {
@@ -511,7 +512,7 @@ title="github icon"></i>
   </div>
   <script src="https://d0gesp4n.com/js/jquery.min.js"></script>
 <script src="https://d0gesp4n.com/js/jquerymigrate.js"></script>
-<script src="https://d0gesp4n.com/js/production.min.js?v=1671495697"></script>
+<script src="https://d0gesp4n.com/js/production.min.js?v=1671496147"></script>
 
 </body>
 </html>
